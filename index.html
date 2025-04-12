@@ -191,21 +191,17 @@
                 <h2 class="text-center mt-0">Contact Me</h2>
                 <hr class="divider" />
             </div>
-<div class="form-container">
-    <form action="https://formspree.io/f/yourformid" method="POST">
-      <div class="mb-3">
-        <input type="text" class="form-control" name="name" placeholder="Your name" required>
-      </div>
-      <div class="mb-3">
-        <input type="email" class="form-control" name="_replyto" placeholder="Your email" required>
-      </div>
-      <div class="mb-3">
-        <textarea class="form-control" name="message" rows="4" placeholder="Your message" required></textarea>
-      </div>
-      <div class="d-grid">
-        <button type="submit" class="btn btn-primary btn-sm">Send</button>
-      </div>
-    </form>
+<div class="w3-display-container" style="height: 100vh;">
+    <div class="w3-display-middle">
+      <form action="https://formspree.io/f/yourformid" method="POST" class="w3-container form-box w3-card-4">
+        <h3 class="w3-center">Contact Me</h3>
+
+        <p><input class="w3-input w3-border w3-small" type="text" name="name" placeholder="Your name" required></p>
+        <p><input class="w3-input w3-border w3-small" type="email" name="_replyto" placeholder="Your email" required></p>
+        <p><textarea class="w3-input w3-border w3-small" name="message" placeholder="Your message" required></textarea></p>
+        <p><button class="w3-button w3-blue w3-small w3-block" type="submit">Send</button></p>
+      </form>
+    </div>
   </div>
          </section>
       
